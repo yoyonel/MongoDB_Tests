@@ -42,6 +42,7 @@ if __name__ == '__main__':
     )
     print("URI Mongo connection: {}".format(uri))
 
+    # using contextmanager functionnality
     with MongoClient(uri) as client:
         # Getting a Database¶
         _HEADER("Getting a Database")
@@ -196,3 +197,4 @@ if __name__ == '__main__':
             result = db.profiles.insert_one(duplicate_profile)
         except pymongo.errors.DuplicateKeyError as e:
             print("Exception 'pymongo.errors.DuplicateKeyError' catched !\n{}".format(repr(e)))
+
