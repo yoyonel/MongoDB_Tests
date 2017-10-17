@@ -1,0 +1,3 @@
+ipython
+memory_profiler
+pymongo
