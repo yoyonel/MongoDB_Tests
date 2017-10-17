@@ -66,7 +66,7 @@ $ mongo --port 27017 -u kanbanUser -p kanban --authenticationDatabase kanban
 
 # Screencast - Docker + MongoDB + Admin/Création Collection/User/
 https://asciinema.org/a/kt3RXYU074hOgQvgKh9EfHs1w
-
+[![asciicast](https://asciinema.org/a/kt3RXYU074hOgQvgKh9EfHs1w.png)](https://asciinema.org/a/kt3RXYU074hOgQvgKh9EfHs1w)
 
 # Python: pymongo
 
