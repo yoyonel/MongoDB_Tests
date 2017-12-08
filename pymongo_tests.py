@@ -197,4 +197,3 @@ if __name__ == '__main__':
             result = db.profiles.insert_one(duplicate_profile)
         except pymongo.errors.DuplicateKeyError as e:
             print("Exception 'pymongo.errors.DuplicateKeyError' catched !\n{}".format(repr(e)))
-
